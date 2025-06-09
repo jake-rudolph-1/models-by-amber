@@ -26,7 +26,7 @@ In the "representations" matrix, the A4 representations are one hot encoded acco
 
 ### T19
 In the "representations" matrix, the T19 representations are one hot encoded according to:
-(1, 1', 1", 3<sub>1</sub>, 3\u0304<sub>1</sub>, 3<sub>2</sub>, 3\u0304<sub>2</sub>, 3<sub>3</sub>, 3\u0304<sub>3</sub>)
+(1, 1', 1", 3<sub>1</sub>, 3̅<sub>1</sub>, 3<sub>2</sub>, 3̅<sub>2</sub>, 3<sub>3</sub>, 3̅<sub>3</sub>)
 
 ## VEV Alignment Mapping
 The "fixed_flavon_vevs" list indicates the VEV alignment of the flavons, with integers mapping to VEV alignments following:
