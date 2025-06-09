@@ -1,0 +1,44 @@
+cff-version: 1.2.0
+message: "Please cite the following works when using models from this repository."
+type: software
+authors:
+- family-names: "Baretz"
+  given-names: "Jason Benjamin"
+  affiliation: "University of California, Irvine"
+
+- family-names: "Fieg"
+  given-names: "Max"
+  affiliation: "University of California, Irvine"
+
+- family-names: "Ganesh"
+  given-names: "Vijay"
+  affiliation: "Georgia Institute of Technology"
+
+- family-names: "Ghosh"
+  given-names: "Aishik"
+  affiliation: "University of California, Irvine"
+
+- family-names: "Knapp-Perez"
+  given-names: "V."
+  affiliation: "University of California, Irvine"
+
+- family-names: "Rudolph"
+  given-names: "Jake"
+  affiliation: "University of California, Irvine"
+
+- family-names: "Whiteson"
+  given-names: "Daniel"
+  affiliation: "University of California, Irvine"
+
+
+
+title: "AMBer"
+repository-code: "https://github.com/jake-rudolph-1/models-by-amber.git"
+url: "https://github.com/jake-rudolph-1/models-by-amber.git"
+keywords:
+  - physics
+  - machine learning
+  - reinforcement learning
+  - model building
+  - neutrino flavor
+license: "CC"
