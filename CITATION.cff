@@ -1,6 +1,5 @@
 cff-version: 1.2.0
-message: "Please cite the following works when using models from this repository."
-type: article
+message: "This repository accompanies a published article. Please cite the article as below."
 authors:
 - family-names: "Rudolph"
   given-names: "Jake"
@@ -30,11 +29,10 @@ authors:
   given-names: "Vijay"
   affiliation: "Georgia Institute of Technology"
 
-
-
-title: "AMBer"
+title: "Towards AI-assisted Neutrino Flavor Theory Design"
 repository-code: "https://github.com/jake-rudolph-1/models-by-amber.git"
 url: "https://github.com/jake-rudolph-1/models-by-amber.git"
+date-released: "2025-06-10"
 keywords:
   - physics
   - machine learning
@@ -42,3 +40,4 @@ keywords:
   - model building
   - neutrino flavor
 license: "CC"
+
