@@ -1,18 +1,18 @@
 # models-by-amber
-Physics models found by AMBer, an autonomous model builder, as described in (arxiv link pending). Please used the citation provided under "Cite this Repository" when using models from this repository.
+Physics models found by AMBer, an autonomous model builder, as described in [2506.08080](https://arxiv.org/abs/2506.08080). Please used the citation provided in citation.bib when using models from this repository.
 
 ## File Format
 Model files are txt files containing a json dictionary with the following fields:
 - "representations": A matrix encoding the representations of all particles under the non-Abelian and Abelian symmetries. There is a sublist for each particle. In each sublist, the non-Abelian symmetry is one-hot encoded, while the Abelian symmetry charge is given directly from 1-N, where N is the order of the Abelian symmetry.
 - "associations": A list identifying which particles are packed together in multiplets. Using the "particles" index below, those with the same non-zero integer are in the same multiplet. 0 indicates the particle is in a singlet.
 - "fixed_flavon_vevs": A list mapping flavons to their VEV alignment (see below)
-- "n_params": Number of free parameters in the model, referenced as n<sub>p</sub> in (arxiv link pending).
+- "n_params": Number of free parameters in the model, referenced as n<sub>p</sub> in [2506.08080](https://arxiv.org/abs/2506.08080).
 - "param_dict": A dictionary where the keys are the free parameters of the model and the values are the best fit values found by AMBer.
 - "ZN_symmetries": A list of the order of the Abelian symmetries in the model.
 - "particles": A list identifying the particles in the model, can be used to index the representation matrix.
 - "eff_flav": Number or flavons that contribute to the Lagrangian.
 - "flavons_not_present": A list of flavons specified by the model but not contributing to the Lagrangian.
-- "total_chisq": The chi-squared fit AMBer found for this model, the value used in the reward function in (arxiv link pending).
+- "total_chisq": The chi-squared fit AMBer found for this model, the value used in the reward function in [2506.08080](https://arxiv.org/abs/2506.08080).
 
 
 ## Read-in Code
