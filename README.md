@@ -1,5 +1,5 @@
 # models-by-amber
-Physics models found by AMBer, an autonomous model builder, as described in [2506.08080](https://arxiv.org/abs/2506.08080). Please used the citation provided in citation.bib when using models from this repository.
+Physics models found by AMBer, an autonomous model builder, as described in [2506.08080](https://arxiv.org/abs/2506.08080). Please used the bibtex citation provided below when using models from this repository.
 
 ## File Format
 Model files are txt files containing a json dictionary with the following fields:
@@ -40,3 +40,14 @@ The "fixed_flavon_vevs" list indicates the VEV alignment of the flavons, with in
 - 8: (1, ω, ω<sup>2</sup>)
 
 ω = exp(2πi/3)
+
+## Citation
+@misc{baretz2025aiassistedneutrinoflavortheory,
+      title={Towards AI-assisted Neutrino Flavor Theory Design}, 
+      author={Jason Benjamin Baretz and Max Fieg and Vijay Ganesh and Aishik Ghosh and V. Knapp-Perez and Jake Rudolph and Daniel Whiteson},
+      year={2025},
+      eprint={2506.08080},
+      archivePrefix={arXiv},
+      primaryClass={hep-ph},
+      url={https://arxiv.org/abs/2506.08080}, 
+}
