@@ -42,6 +42,7 @@ The "fixed_flavon_vevs" list indicates the VEV alignment of the flavons, with in
 ω = exp(2πi/3)
 
 ## Citation
+```bibtex
 @misc{baretz2025aiassistedneutrinoflavortheory,
       title={Towards AI-assisted Neutrino Flavor Theory Design}, 
       author={Jason Benjamin Baretz and Max Fieg and Vijay Ganesh and Aishik Ghosh and V. Knapp-Perez and Jake Rudolph and Daniel Whiteson},
