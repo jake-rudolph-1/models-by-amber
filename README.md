@@ -1,5 +1,5 @@
 # models-by-amber
-Physics models found by AMBer, an autonomous model builder, as described in [2506.08080](https://arxiv.org/abs/2506.08080). Please used the bibtex citation provided below when using models from this repository.
+The models in this repository are "inequivalent filtered models" found by AMBer, an autonomous model builder, as described in [2506.08080](https://arxiv.org/abs/2506.08080). Models can be further analyzed using the [FlavorBuilder](https://pypi.org/project/FlavorBuilder/). Please used the bibtex citation provided below when using models from this repository.
 
 ## File Format
 Model files are txt files containing a json dictionary with the following fields:
