@@ -13,6 +13,10 @@ Model files are txt files containing a json dictionary with the following fields
 - "eff_flav": Number or flavons that contribute to the Lagrangian.
 - "flavons_not_present": A list of flavons specified by the model but not contributing to the Lagrangian.
 - "total_chisq": The chi-squared fit AMBer found for this model, the value used in the reward function in [2506.08080](https://arxiv.org/abs/2506.08080).
+- "m_b": The effective electron neutrino mass.
+- "m_bb": The effective Majorana mass.
+- "Sum(m_i)": The sum of the neutrino masses.
+- "m1": The lightest neutrino mass.
 
 
 ## Read-in Code
